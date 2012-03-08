@@ -1,4 +1,8 @@
 ### Moov [moo-vee], (TMDB)The Movie Database API Wrapper
+
+###### API Key Setup
+Set your TMDB API key in Moov/core.clj
+
 ###### Quick Example
 
     ; Clojure 1.3 / no-deps, stdlib-only
@@ -10,6 +14,7 @@
         (println (TMDB/movieSearch "The Shinning"))
         (catch Exception e (println e)))
     );-main
+    
 ###### Available Functions 
     
     (defn personImages [person_id]
