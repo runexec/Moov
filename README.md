@@ -1,4 +1,4 @@
-### Moov [moo-vee], (TMDB)The Movie Database API Wrapper
+### Moov [moo-vee], The Movie Database (TMDB v3) API Wrapper
 
 ###### API Key Setup
 Set your TMDB API key in Moov/core.clj
